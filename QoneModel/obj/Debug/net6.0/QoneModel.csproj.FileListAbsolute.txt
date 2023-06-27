@@ -1,0 +1,12 @@
+C:\Users\VALI\source\repos\Ione\QoneModel\bin\Debug\net6.0\QoneModel.deps.json
+C:\Users\VALI\source\repos\Ione\QoneModel\bin\Debug\net6.0\QoneModel.dll
+C:\Users\VALI\source\repos\Ione\QoneModel\bin\Debug\net6.0\QoneModel.pdb
+C:\Users\VALI\source\repos\Ione\QoneModel\obj\Debug\net6.0\QoneModel.csproj.AssemblyReference.cache
+C:\Users\VALI\source\repos\Ione\QoneModel\obj\Debug\net6.0\QoneModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VALI\source\repos\Ione\QoneModel\obj\Debug\net6.0\QoneModel.AssemblyInfoInputs.cache
+C:\Users\VALI\source\repos\Ione\QoneModel\obj\Debug\net6.0\QoneModel.AssemblyInfo.cs
+C:\Users\VALI\source\repos\Ione\QoneModel\obj\Debug\net6.0\QoneModel.csproj.CoreCompileInputs.cache
+C:\Users\VALI\source\repos\Ione\QoneModel\obj\Debug\net6.0\QoneModel.dll
+C:\Users\VALI\source\repos\Ione\QoneModel\obj\Debug\net6.0\refint\QoneModel.dll
+C:\Users\VALI\source\repos\Ione\QoneModel\obj\Debug\net6.0\QoneModel.pdb
+C:\Users\VALI\source\repos\Ione\QoneModel\obj\Debug\net6.0\ref\QoneModel.dll

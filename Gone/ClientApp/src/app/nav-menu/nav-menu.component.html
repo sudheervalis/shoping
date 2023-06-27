@@ -1,0 +1,200 @@
+<!--<div>
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+      <div class="container">
+        <a class="navbar-brand" [routerLink]="['/']">Gone</a>
+        <button class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target=".navbar-collapse"
+                aria-label="Toggle navigation"
+                [attr.aria-expanded]="isExpanded"
+                (click)="toggle()">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse d-sm-inline-flex justify-content-end"
+             [ngClass]="{ show: isExpanded }">
+          <ul class="navbar-nav flex-grow">
+            <li class="nav-item"
+                [routerLinkActive]="['link-active']"
+                [routerLinkActiveOptions]="{ exact: true }">
+              <a class="nav-link text-dark" [routerLink]="['/']">Employee</a>
+            </li>
+            <li class="nav-item" [routerLinkActive]="['link-active']">
+              <a class="nav-link text-dark" [routerLink]="['/Student']">Student</a>
+            </li>
+            <li class="nav-item" [routerLinkActive]="['link-active']">
+              <a class="nav-link text-dark" [routerLink]="['/User']">User</a>
+            </li>
+            <li class="nav-item" [routerLinkActive]="['link-active']">
+              <a class="nav-link text-dark" [routerLink]="['/Login']">Login</a>
+            </li>
+            <li class="nav-item">
+              <a href="/login" class="nav-link" routerLink="login">Login</a>
+            </li>
+
+          </ul>
+          <ul class="navbar-nav ml-auto" *ngIf="isLoggedIn">
+            <li class="nav-item">
+              <a href="/profile" class="nav-link" routerLink="profile">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" (click)="logout()">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+</div>-->
+
+<div>
+  <header class="navbar navbar-inverse">
+
+    <menu class="Menudropdown" onclick="myFunction(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+      <div class="Menudropdown-content">
+        <a class="nav-link text-dark" [routerLink]="['/']">Employee</a>
+        <a class="nav-link text-dark" [routerLink]="['/Student']">Student</a>
+        <a class="nav-link text-dark" [routerLink]="['/User']">User</a>
+        <a class="nav-link text-dark" [routerLink]="['/Login']">Login</a>
+        <a href="/login" class="nav-link" routerLink="login">Login</a>
+        <a href="#">Your Order</a>
+        <a href="#">Wish List</a>
+        <a href="#">Payement</a>
+        <a href="#">Setting's</a>
+        <a href="#">Custemer Service</a>
+      </div>
+    </menu>
+
+    <div class="navbar-logo"> MVM College</div>
+
+    <input class="searchBar" id="myTextBox" name="myTextBox" type="text" placeholder="" />
+    <button type="submit" class="searchButton">Search</button>
+    <button type="submit" class="Profile" name="Login" routerLink="profile">Profile</button>
+    <button type="submit" class="login" name="Login" (click)="logout()">LogOut</button>
+
+    
+    <!--<div class="dropdown">
+    <button class="dropbtn"> More</button>
+    <div class="dropdown-content">
+      <a href="#">Your Wish List</a>
+      <a href="#">Your Order list</a>
+      <a href="#">Payment History</a>
+    </div>
+  </div>-->
+
+  </header>
+  <header class="navbar2 ">
+
+    <div class="dropdown1">
+      <button class="dropbtn" routerLink="/adiministrative"> Adiministrative</button>
+      <div class="dropdown1-content">
+        <a href="#">Your Wish List</a>
+        <a href="#">Your Order list</a>
+        <a href="#">Payment History</a>
+      </div>
+    </div>
+    <div class="dropdown2">
+      <button class="dropbtn" routerLink="/chairman-detail"> ChairmanDetail</button>
+      <div class="dropdown2-content">
+        <a href="#">Your Wish List</a>
+        <a href="#">Your Order list</a>
+        <a href="#">Payment History</a>
+      </div>
+    </div>
+    <div class="dropdown3">
+      <button class="dropbtn" routerLink="/employee-detail"> EmployeeDetail</button>
+      <div class="dropdown3-content">
+        <a href="#">Your Wish List</a>
+        <a href="#">Your Order list</a>
+        <a href="#">Payment History</a>
+      </div>
+    </div>
+    <div class="dropdown4">
+      <button class="dropbtn" routerLink="/financial-detail"> FinancialDetail</button>
+      <div class="dropdown4-content">
+        <a href="#">Your Wish List</a>
+        <a href="#">Your Order list</a>
+        <a href="#">Payment History</a>
+      </div>
+    </div>
+    <div class="dropdown5">
+      <button class="dropbtn" routerLink="/student-detail">StudentDetail</button>
+      <div class="dropdown5-content">
+        <a href="#">Your Wish List</a>
+        <a href="#">Your Order list</a>
+        <a href="#">Payment History</a>
+      </div>
+    </div>
+    <div class="dropdown6">
+      <button class="dropbtn" routerLink="/user-detail"> UserDetail</button>
+      <div class="dropdown6-content">
+        <a href="#">Your Wish List</a>
+        <a href="#">Your Order list</a>
+        <a href="#">Payment History</a>
+      </div>
+    </div>
+    <div class="dropdown7">
+      <button class="dropbtn" routerLink="/mvmcollege"> MVMcollege</button>
+      <div class="dropdown7-content">
+        <a href="#">Your Wish List</a>
+        <a href="#">Your Order list</a>
+        <a href="#">Payment History</a>
+      </div>
+    </div>
+
+    <!--<div class="dropdown8">
+      <button class="dropbtn">
+        Sports
+
+      </button>
+      <div class="dropdown8-content">
+        <a href="#">Your Wish List</a>
+        <a href="#">Your Order list</a>
+        <a href="#">Payment History</a>
+      </div>
+    </div>
+    <div class="dropdown9">
+      <button class="dropbtn"> Furniture</button>
+      <div class="dropdown9-content">
+        <a href="#">Your Wish List</a>
+        <a href="#">Your Order list</a>
+        <a href="#">Payment History</a>
+      </div>
+    </div>
+    <div class="dropdown10">
+      <button class="dropbtn"> Grocery</button>
+      <div class="dropdown10-content">
+        <a href="#">Your Wish List</a>
+        <a href="#">Your Order list</a>
+        <a href="#">Payment History</a>
+      </div>
+    </div>
+    <div class="dropdown11">
+      <button class="dropbtn"> Travel</button>
+      <div class="dropdown11-content">
+        <a href="#">Your Wish List</a>
+        <a href="#">Your Order list</a>
+        <a href="#">Payment History</a>
+      </div>
+    </div>
+    <div class="dropdown12">
+      <button class="dropbtn"> Recharges</button>
+      <div class="dropdown12-content">
+        <a href="#">Your Wish List</a>
+        <a href="#">Your Order list</a>
+        <a href="#">Payment History</a>
+      </div>
+    </div>-->
+  </header>
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+

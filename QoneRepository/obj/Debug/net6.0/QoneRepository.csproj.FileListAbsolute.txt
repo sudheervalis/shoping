@@ -1,0 +1,15 @@
+C:\Users\VALI\source\repos\Ione\QoneRepository\bin\Debug\net6.0\QoneRepository.deps.json
+C:\Users\VALI\source\repos\Ione\QoneRepository\bin\Debug\net6.0\QoneRepository.dll
+C:\Users\VALI\source\repos\Ione\QoneRepository\bin\Debug\net6.0\QoneRepository.pdb
+C:\Users\VALI\source\repos\Ione\QoneRepository\obj\Debug\net6.0\QoneRepository.csproj.AssemblyReference.cache
+C:\Users\VALI\source\repos\Ione\QoneRepository\obj\Debug\net6.0\QoneRepository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VALI\source\repos\Ione\QoneRepository\obj\Debug\net6.0\QoneRepository.AssemblyInfoInputs.cache
+C:\Users\VALI\source\repos\Ione\QoneRepository\obj\Debug\net6.0\QoneRepository.AssemblyInfo.cs
+C:\Users\VALI\source\repos\Ione\QoneRepository\obj\Debug\net6.0\QoneRepository.csproj.CoreCompileInputs.cache
+C:\Users\VALI\source\repos\Ione\QoneRepository\obj\Debug\net6.0\QoneRepository.dll
+C:\Users\VALI\source\repos\Ione\QoneRepository\obj\Debug\net6.0\refint\QoneRepository.dll
+C:\Users\VALI\source\repos\Ione\QoneRepository\obj\Debug\net6.0\QoneRepository.pdb
+C:\Users\VALI\source\repos\Ione\QoneRepository\obj\Debug\net6.0\ref\QoneRepository.dll
+C:\Users\VALI\source\repos\Ione\QoneRepository\bin\Debug\net6.0\DataAxisLayer.dll
+C:\Users\VALI\source\repos\Ione\QoneRepository\bin\Debug\net6.0\DataAxisLayer.pdb
+C:\Users\VALI\source\repos\Ione\QoneRepository\obj\Debug\net6.0\QoneRepository.csproj.CopyComplete

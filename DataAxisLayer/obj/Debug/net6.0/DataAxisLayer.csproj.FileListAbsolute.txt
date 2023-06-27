@@ -1,0 +1,14 @@
+C:\Users\VALI\source\repos\Ione\DataAxisLayer\bin\Debug\net6.0\DataAxisLayer.deps.json
+C:\Users\VALI\source\repos\Ione\DataAxisLayer\bin\Debug\net6.0\DataAxisLayer.runtimeconfig.json
+C:\Users\VALI\source\repos\Ione\DataAxisLayer\bin\Debug\net6.0\DataAxisLayer.dll
+C:\Users\VALI\source\repos\Ione\DataAxisLayer\bin\Debug\net6.0\DataAxisLayer.pdb
+C:\Users\VALI\source\repos\Ione\DataAxisLayer\obj\Debug\net6.0\DataAxisLayer.csproj.AssemblyReference.cache
+C:\Users\VALI\source\repos\Ione\DataAxisLayer\obj\Debug\net6.0\DataAxisLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VALI\source\repos\Ione\DataAxisLayer\obj\Debug\net6.0\DataAxisLayer.AssemblyInfoInputs.cache
+C:\Users\VALI\source\repos\Ione\DataAxisLayer\obj\Debug\net6.0\DataAxisLayer.AssemblyInfo.cs
+C:\Users\VALI\source\repos\Ione\DataAxisLayer\obj\Debug\net6.0\DataAxisLayer.csproj.CoreCompileInputs.cache
+C:\Users\VALI\source\repos\Ione\DataAxisLayer\obj\Debug\net6.0\DataAxisLayer.dll
+C:\Users\VALI\source\repos\Ione\DataAxisLayer\obj\Debug\net6.0\refint\DataAxisLayer.dll
+C:\Users\VALI\source\repos\Ione\DataAxisLayer\obj\Debug\net6.0\DataAxisLayer.pdb
+C:\Users\VALI\source\repos\Ione\DataAxisLayer\obj\Debug\net6.0\DataAxisLayer.genruntimeconfig.cache
+C:\Users\VALI\source\repos\Ione\DataAxisLayer\obj\Debug\net6.0\ref\DataAxisLayer.dll

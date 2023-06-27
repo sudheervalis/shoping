@@ -1,0 +1,28 @@
+
+<button class="btn  btn-outline-light " style="background-color:#FF6B78" routerLink="/creat-chairman-detail"> Add employee</button>
+<br />
+<br />
+
+
+<table class="table table-sm table-hover">
+  <thead>
+    <tr>
+      <th> studentId </th>
+      <th>EmpName </th>
+      <th> EmpBranch </th>
+      <th></th>
+    </tr>
+  </thead>
+  <tr *ngFor="let item of models">
+    <td>{{item.studentId}}</td>
+    <td> {{item.name}}</td>
+    <td>{{item.class}}</td>
+    <td>
+      <button class="btn btn-success" routerLink="/edit/{{item.studentId}}" style="margin-left: 20px;">Edit</button>
+      <button class="btn btn-outline-light" style="background-color:#FF6B78" (click)="onDelete(item.studentId)">Delete</button>
+      <button class="btn" routerLink="/views/{{item.studentId}}"> view</button>
+
+    </td>
+  </tr>
+</table>
+<router-outlet></router-outlet>
